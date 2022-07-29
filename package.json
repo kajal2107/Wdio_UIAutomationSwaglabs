@@ -1,0 +1,25 @@
+{
+  "name": "0110",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/register": "^7.15.3",
+    "@wdio/cli": "^7.14.0",
+    "@wdio/local-runner": "^7.13.2",
+    "@wdio/mocha-framework": "^7.13.2",
+    "@wdio/spec-reporter": "^7.13.2",
+    "chai": "^4.3.4",
+    "chromedriver": "^94.0.0",
+    "prettier": "^2.4.1",
+    "wdio-chromedriver-service": "^7.2.2"
+  }
+}
